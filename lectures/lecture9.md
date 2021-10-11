@@ -163,12 +163,6 @@ std::shared_ptr<int> int_ptr1 = std::make_shared<int>(new int(2));
 std::shared_ptr<int> int_ptr2 = int_ptr1;
 ```
   
-### std::weak_ptr
-
-//Рассмотрим пример: Допустим у нас есть Array и ArrayIterator. Пусть у нас shared_ptr есть из ArrayIterator на Array и shared_ptr
-//на Array извне. Заметим, что если мы удалим последний shared_ptr, то у нас останется shared_ptr, который никак не удалится. Для таких случаев существует 
-//std::weak_ptr. weak_ptr работает с тем же счетчиком ссылок, но при этом он не учитывается. Он создается только от shared_ptr, а чтобы получить из weak_ptr shared_ptr 
-//существует метод lock. 
 
 ## Исключения
 Допустим у нашего Array есть оператор [] и мы хотим как-то обработать ситуации, когда index выходит за границы. Для таких случаев в C++ есть специальный механизм, 
