@@ -158,12 +158,12 @@ private:
 class A {
 public:
     ...
-    friend operator+(const A& lhs, size_t rhs);
+    friend A operator+(const A& lhs, size_t rhs);
 private:
     int x;
 }
 
-A::operator+(const A& lhs, size_t rhs) {
+A A::operator+(const A& lhs, size_t rhs) {
     return A(lhs.x + rhs);
 }
 ```
