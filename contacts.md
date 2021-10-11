@@ -1,4 +1,4 @@
-#Конспекты делали
+# Конспекты делали
 * Дубровин Дмитрий [telegram](https://t.me/ddubrovin): Лекции 1 и 6
 * Бугаев Егор [telegram](https://t.me/TempestE7): Лекции 2 и 7
 * Дамиров Намиг [telegram](https://t.me/NDamirov): Лекции 3 и 8
