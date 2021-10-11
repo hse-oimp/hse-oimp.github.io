@@ -2,3 +2,5 @@
 1. [Типы данных](lectures/lecture1.md)
 
 4. [Последовательные контейнеры](lectures/lecture4.md)
+
+9. [RAII, умные указатели и многое другое](lectures/lecture9.md)
