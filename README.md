@@ -9,5 +9,7 @@
 8. [Проблемы с точностью. Раздельная компиляция. Перегрузка операторов](lectures/lecture8.md)
 9. Coming soon
 10. Coming soon
-***
+
+
+
 [Кто делал?](contacts.html)
