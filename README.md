@@ -9,7 +9,7 @@
 8. [Проблемы с точностью. Раздельная компиляция. Перегрузка операторов](lectures/lecture8.md)
 9. Coming soon
 10. Coming soon
-
+11. [Шаблоны и auto](lectures/lecture11.html)
 
 
 [Кто делал?](contacts.html)
