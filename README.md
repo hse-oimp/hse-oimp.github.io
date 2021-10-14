@@ -8,7 +8,7 @@
 7. Coming soon
 8. [Проблемы с точностью. Раздельная компиляция. Перегрузка операторов](lectures/lecture8.md)
 9. [RAII, умные указатели и многое другое](lectures/lecture9.md)
-10. Coming soon
+10. [Наследование](lectures/Lec10.html)
 11. [Шаблоны и auto](lectures/lecture11.html)
 
 
