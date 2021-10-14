@@ -160,7 +160,7 @@ class Tuple;
 ```c++
 template <typename THead, typename... TTail>
 class Tuple<THead, TTail...> : public Tuple<TTail...> {
-    using Tbase = tuple<TTail...>;
+    using TBase = tuple<TTail...>;
 public:
     Tuple(THead head, TTail... tail) : TBase(tail...), value_(head) {
         
