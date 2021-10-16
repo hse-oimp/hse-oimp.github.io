@@ -5,7 +5,7 @@
 4. [Последовательные контейнеры](lectures/lecture4.md)
 5. Coming soon
 6. [Работа с памятью](lectures/lecture6.md)
-7. Coming soon
+7. [Namespace. Классы](lectures/lecture7.md)
 8. [Проблемы с точностью. Раздельная компиляция. Перегрузка операторов](lectures/lecture8.md)
 9. [RAII, умные указатели и многое другое](lectures/lecture9.md)
 10. [Наследование](lectures/Lec10.html)
