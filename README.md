@@ -1,7 +1,7 @@
 # Конспекты по ОиМПу в Высшей Школе Экономики за 2021/22 учебный год.
 1. [Типы данных](lectures/lecture1.md)
 2. Coming soon
-3. Coming soon
+3. [Auto. Константность. Указатели. Ссылки](lectures/lecture3.md)
 4. [Последовательные контейнеры](lectures/lecture4.md)
 5. Coming soon
 6. [Работа с памятью](lectures/lecture6.md)
