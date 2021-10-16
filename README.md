@@ -8,8 +8,8 @@
 7. [Namespace. Классы](lectures/lecture7.md)
 8. [Проблемы с точностью. Раздельная компиляция. Перегрузка операторов](lectures/lecture8.md)
 9. [RAII, умные указатели и многое другое](lectures/lecture9.md)
-10. [Наследование](lectures/Lec10.html)
-11. [Шаблоны и auto](lectures/lecture11.html)
+10. [Наследование](lectures/Lec10.md)
+11. [Шаблоны и auto](lectures/lecture11.md)
 12. [Алгоритмы стандартной библиотеки](lectures/lecture12.md) 
 
 [Кто делал?](contacts.html)
