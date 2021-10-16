@@ -16,6 +16,11 @@ g++ program.cpp -o program -Werror -Wall
 * `-Werror` - все `warrnings` становятся ошибками
 * `-Wall` - включить все `warnings`
 
+Запускать программу надо так:
+* Относительный путь: `./program`
+* Абсолютный путь: `/home/user/path/to/file/program`
+* Положить программу куда-либо в `PATH`, например `/usr/bin`, тогда запускать можно так: `program`
+
 ## Как делать нельзя
 
 ```c++
