@@ -10,6 +10,6 @@
 9. [RAII, умные указатели и многое другое](lectures/lecture9.md)
 10. [Наследование](lectures/Lec10.html)
 11. [Шаблоны и auto](lectures/lecture11.html)
-
+12. [Алгоритмы стандартной библиотеки](lectures/lecture12.md) 
 
 [Кто делал?](contacts.html)
