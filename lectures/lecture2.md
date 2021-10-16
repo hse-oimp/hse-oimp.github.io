@@ -53,4 +53,11 @@ for (int number : numbers) {
 	std::cout << number << std::endl;
 }
 ```
+По возможности стоит избегать такого итерирования:
+```c++
+std::vector<int> numbers = {1, 2, 3};
+for (size_t i = 0; i < numbers.size(); ++i) { // Менее читабельная запись, лучше избегать
+	std::cout << numbers[i] << std::endl;
+}
+```
 
