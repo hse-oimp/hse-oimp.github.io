@@ -20,7 +20,7 @@ protected:
     size_t sz3 = 0;
 }
 
-class Inheritanc {
+class Inheritanc : public Parent {
     size_t x;
     x = sz1;
     x = sz2; // ошибка
