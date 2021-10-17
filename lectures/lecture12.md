@@ -30,7 +30,7 @@ std::for_each(v.begin(), v.end(), [](auto& i) { std::cout << i << std::endl; });
 ```c++
 auto it = std::find_if(v.begin(), v.end(), [](auto x) { return x > 2; }); // Ищем первый элемент, удовлетворяющий предикату
 auto it = std::search(v.begin(), v.end(), v2.begin(), v2.end()); // Обобщенный аналог поиска подстроки в строке
-auto it = std::find_if(v.begin(), v.end(), v2.begin(), v2.end()); // Как и search, но ищем последнее вхождение
+auto it = std::find_end(v.begin(), v.end(), v2.begin(), v2.end()); // Как и search, но ищем последнее вхождение
 ```
 
 Эти функции копируют выбранные элементы одной коллекции в другую.
