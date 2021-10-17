@@ -3,7 +3,7 @@
 2. [Примитивные типы. std::string. std::vector](lectures/lecture2.md)
 3. [Auto. Константность. Указатели. Ссылки](lectures/lecture3.md)
 4. [Последовательные контейнеры](lectures/lecture4.md)
-5. [Ассоциативные контейнеры](lectures/lecture10.md)
+5. [Ассоциативные контейнеры](lectures/lecture5.md)
 6. [Работа с памятью](lectures/lecture6.md)
 7. [Namespace. Классы](lectures/lecture7.md)
 8. [Проблемы с точностью. Раздельная компиляция. Перегрузка операторов](lectures/lecture8.md)
