@@ -13,7 +13,7 @@ g++ program.cpp -o program -Werror -Wall
 * `g++` - компилятор, можно использовать `clang`
 * `program.cpp` - путь до файла с исходным кодом
 * `-o program` - название исполняемого файла
-* `-Werror` - все `warrnings` становятся ошибками
+* `-Werror` - все `warnings` становятся ошибками
 * `-Wall` - включить все `warnings`
 
 Запускать программу надо так:
@@ -24,7 +24,7 @@ g++ program.cpp -o program -Werror -Wall
 ## Как делать нельзя
 
 ```c++
-//#include<bits/stdc++.h> нельзя!
+//#include <bits/stdc++.h> нельзя!
 #include <iostream>
 //using namespace std; нельзя!
 
