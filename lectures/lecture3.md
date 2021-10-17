@@ -27,7 +27,7 @@ int main() {
 
 Хотим сделать функцию, которая печатает строку:
 ```c++
-void PrintString(std::string string) {
+void PrintString(std::string str) {
     std::cout << str << std::endl;
 }
 
