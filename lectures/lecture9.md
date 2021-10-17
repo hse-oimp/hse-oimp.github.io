@@ -59,7 +59,7 @@ array, а значения array сделать неопределенными, 
 Array(Array&& array) {
     this->size = array.size;
     this->data = array.data;    // воруем значения array
-    this->data = nullptr;       // присваиваем nullptr, чтобы деструктор array не удалил this->data
+    array->data = nullptr;       // присваиваем nullptr, чтобы деструктор array не удалил this->data
 }
 ```
 Заметим в коде странный синтаксис - &&(rvalue reference). Он отличается от & тем, что мы не можем передать в него что попало, например не временный объект, который не собирается удаляться.
