@@ -43,7 +43,7 @@ int main() {
 Пытаемся исправить это и передаем в функцию ссылку на переменную (новое имя для переменной, хранит в себе адрес в памяти). Изменение ссылки повлияет и на исходный объект, в отличие от копии.
 
 ```c++
-void PrintString(std::string& string) {
+void PrintString(std::string& str) {
     std::cout << str << std::endl;
 }
 
@@ -59,7 +59,7 @@ int main() {
 Новая проблема:
 
 ```c++
-void PrintString(std::string& string) {
+void PrintString(std::string& str) {
     std::cout << str << std::endl;
 }
 
@@ -74,7 +74,7 @@ int main() {
 
 Итоговый код: 
 ```c++
-void PrintString(const std::string& string) {
+void PrintString(const std::string& str) {
     std::cout << str << std::endl;
 }
 
