@@ -54,11 +54,6 @@ hse2::f();
 namespace {
 }
 ```
-Или:
-```c++
-namespace random_ns { // При компиляции random_ns заменяется на уникальное имя
-}
-```
 
 ## using/typedef
 
