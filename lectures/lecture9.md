@@ -73,7 +73,7 @@ Array& operator=(Array&& array) {
     }
     this->size = array.size;
     this->data = array.data;
-    this->data = nullptr;
+    array->data = nullptr;
 }
 ```
 ### std::move
