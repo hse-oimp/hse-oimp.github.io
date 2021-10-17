@@ -140,7 +140,7 @@ word_count1.merge(word_count2);
     }
     struct StudentHash {
         size_t operator()(const Student& student) const {
-            return std::hash<std::string> hash;
+            return std::hash<std::string> hash()(student.name);
         }
     }
     std::unordered_map<Student, size_t, StudentHash> student_map;
