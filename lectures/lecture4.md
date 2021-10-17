@@ -211,7 +211,7 @@ for (auto it = numbers.begin(); it != numbers.end(); ++it) {    работает
     std::cout << *it << ' ';                                    
 }
 ```
-Единственное преимущество std::list перед std::vector - вставка элемента по итератору в произвольное место:
+Одно из преимуществ std::list перед std::vector - вставка элемента по итератору в произвольное место за O(1):
 ```c++
 std::list<int> numbers = {1, 2, 3, 4, 5};
 for (auto it = numbers.begin(); it != numbers.end(); ++it) {
