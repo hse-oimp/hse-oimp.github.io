@@ -89,7 +89,7 @@ class A : public B, public C {
 ```c++
 class Unit {};
 
-class AntiGround public virtual Unit {};
+class AntiGround : public virtual Unit {};
 
 class Flying : public virtual Unit {};
 
