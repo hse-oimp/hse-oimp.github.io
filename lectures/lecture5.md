@@ -100,9 +100,7 @@ for (const auto& word : text) {
 for (const auto& word : text) {
     auto it = word_count.find(word);
     if (word_count.end() != it) {
-        /// auto& [key, value] = *it;
-        // ++value;
-        ++(it->second); // обращение к полю указателя
+        word_count.at(word);
     }
 }
 ```
