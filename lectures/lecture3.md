@@ -144,37 +144,37 @@ int main {
 Есть константность трех типов:
 
 1) Указатель на константный объект :
-     ```c++
-    int main() {
-        int i = 10;
-        const int* iPtr = &i;
-        iPtr = nullptr; // OK
-        *iPtr = 10; // Ошибка
-        return 0;
-    }
-    ```
+```c++
+int main() {
+    int i = 10;
+    const int* iPtr = &i;
+    iPtr = nullptr; // OK
+    *iPtr = 10; // Ошибка
+    return 0;
+}
+```
 
 2) Константный указатель на объект (похоже на ссылку):
-     ```c++
-    int main() {
-        int i = 10;
-        int* const iPtr = &i;
-        iPtr = nullptr; // Ошибка
-        *iPtr = 10; // ОК
-        return 0;
-    }
-    ```
+```c++
+int main() {
+    int i = 10;
+    int* const iPtr = &i;
+    iPtr = nullptr; // Ошибка
+    *iPtr = 10; // ОК
+    return 0;
+}
+```
 
 3) Константный указатель на константный объект:
-    ```c++
-    int main() {
-        int i = 10;
-        const int* const iPtr = &i;
-        iPtr = nullptr; // Ошибка
-        *iPtr = 10; // Ошибка
-        return 0;
-    }
-    ```
+```c++
+int main() {
+    int i = 10;
+    const int* const iPtr = &i;
+    iPtr = nullptr; // Ошибка
+    *iPtr = 10; // Ошибка
+    return 0;
+}
+```
 
 Такие выражения удобно читать справа налево. Аналогичным образом устроена ссылка на константный объект.
 
